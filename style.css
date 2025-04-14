@@ -1,0 +1,30 @@
+#chatgpt-usage-tracker {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  padding: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+#chatgpt-usage-tracker.dark {
+  background: #1f2937;
+  color: #f9fafb;
+  border-color: #374151;
+}
+#chatgpt-usage-tracker h2 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.tracker-info {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 6px;
+}
