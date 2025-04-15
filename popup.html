@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatGPT Reset Tracker</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background-color: #f5f5f5;
+      color: #333;
+      width: 300px;
+    }
+    .container {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .timer {
+      font-size: 1.75em;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+    .label {
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Next Reset In:</h2>
+    <div class="timer" id="countdown">Loading...</div>
+    <div class="label" id="timezone-label">Detecting timezone...</div>
+  </div>
+  <script src="popup.js"></script>
+  <p style="font-size: 0.8em; margin-top: 1rem; text-align: center;">
+    <a href="https://forms.gle/vPqa4mkNFoY5ay2t7" target="_blank">Feedback</a>
+  </p>
+</body>
+</html>
+

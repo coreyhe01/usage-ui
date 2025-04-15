@@ -1,32 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Usage Tracker",
-  "description": "Track your ChatGPT message usage, session time remaining, and reset window with a lightweight floating UI.",
-  "version": "1.0.0",
-  "permissions": ["scripting", "activeTab"],
+  "name": "ChatGPT Reset Tracker",
+  "version": "1.1",
+  "description": "Track estimated ChatGPT message reset time.",
   "action": {
-    "default_title": "ChatGPT Usage Tracker",
+    "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "32": "icons/icon32.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
     }
   },
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://chat.openai.com/*"],
-      "js": ["tracker.js"],
-      "css": ["style.css"]
-    }
-  ],
+  "permissions": [],
   "icons": {
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
 }

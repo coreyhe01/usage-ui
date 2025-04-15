@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatGPT Reset Timer (Web Version)</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      background: #f7f7f7;
+      color: #333;
+    }
+    .container {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      text-align: center;
+    }
+    .timer {
+      font-size: 2em;
+      margin-top: 1rem;
+    }
+    .label {
+      margin-top: 0.5rem;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ChatGPT Usage Reset Timer</h1>
+    <div class="timer" id="countdown">Loading…</div>
+    <div class="label" id="timezone-label">Detecting timezone...</div>
+    <p style="font-size: 0.8em; margin-top: 1rem;">
+      <a href="https://forms.gle/vPqa4mkNFoY5ay2t7" target="_blank">Feedback</a>
+    </p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
