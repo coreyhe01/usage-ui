@@ -47,7 +47,14 @@ You’ll now see a round icon in your toolbar. Click it to check your countdown 
 ## 💬 Feedback
 
 We want your input! Help us shape the future of this effort:  
+
 👉 [Feedback](https://forms.gle/vPqa4mkNFoY5ay2t7) *(no login required)*
+
+## 🧠 Technical Users & Contributors
+If you're comfortable with GitHub and prefer to share feedback publicly, we welcome input on our open issue thread:
+📣 [Tell Us How You Use ChatGPT – GitHub Issue #1](https://github.com/coreyhe01/usage-ui/issues/1)
+
+Your input helps us improve the tool and advocate for better in-app usage signals from OpenAI.
 
 ---
 
